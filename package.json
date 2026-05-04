@@ -1,0 +1,19 @@
+{
+  "name": "dendri-backlog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public issue tracker for the Dendri project.",
+  "scripts": {
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+    "lint:links": "lychee --no-progress --exclude-mail .",
+    "lint": "npm run lint:md"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.13.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afterrealism/dendri-backlog"
+  }
+}
